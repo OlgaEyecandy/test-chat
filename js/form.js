@@ -24,5 +24,5 @@ function getComment() {
     message.innerHTML = '<em>' + name + ': ' + '</em>' + text;
     message.className = 'message';
     messages.appendChild(message);
-    return text
+    
 }

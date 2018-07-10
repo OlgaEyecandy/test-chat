@@ -46,7 +46,7 @@
   margin: 5px 40px;
 }
 
-em {
+.message em {
   color: var(--blue);
   font-weight: 600;
 }
