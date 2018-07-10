@@ -18,24 +18,26 @@
             <div id="messages"></div>
         </div>
         <div class="chat-input border">
-            <div class="form-group row">
+            <div class="input-group row">
                 <label for="comment-name" class="col-2 col-form-label">Ваше имя</label>
                 <div class="col">
                     <input type="text" id="comment-name" placeholder="Введите имя">
                 </div>
             </div>
-            <div class="form-group row">
+            <div class="input-group row">
                 <label for="comment-field" class="col-2 col-form-label">Текст сообщения</label>
                 <div class="col">
                     <textarea name="comment" id="comment-field" cols="30" rows="5" placeholder="Введите сообщение"></textarea>
                 </div>
             </div>
-            <div class="form-group row">
+            <div class="input-group row">
                 <div class="col-2 send">
-                    <input type="button" onclick="web_send_msg()" class="btn btn-primary active" value="Отправить">
+                    <input type="button" id="btn" class="btn btn-primary active" value="Отправить">
+                    <!-- in case of using JS one-->
+                    <!-- <input type="button" id="btn"  onclick="web_send_msg()" class="btn btn-primary active" value="Отправить">  in case of using jQuery one
+                    -->
                 </div>
             </div>
-
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
