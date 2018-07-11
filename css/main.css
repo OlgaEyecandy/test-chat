@@ -24,17 +24,6 @@
   width: 90%;
 }
 
-/* #messages{
-  background-color: var(--light);
-  min-height: 40px;
-  border: 1px solid gray;
-  border-radius: 5px;
-  padding: 5px 20px;
-  display: inline-block;
-  width: 90%;
-  margin: 5px 40px;
-}           -- for jQuery one */
-
 .message {
   background-color: var(--light);
   min-height: 40px;
@@ -57,12 +46,14 @@ label {
   font-weight: 600;
 }
 
-input {
-  margin-left: 110px;
-  margin-top: 10px;
-}
-
 .send {
   position: relative;
   left: 80%;
+}
+
+.alert {
+  display: inline-block;
+  color: var(--danger);
+  font-weight: bold;
+  opacity: 0;
 }
