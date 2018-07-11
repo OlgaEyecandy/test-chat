@@ -1,0 +1,59 @@
+.chat-main {
+  width: 90%;
+  margin: auto;
+}
+
+.messages {
+  height: 350px;
+  background-color: var(--gray);
+  overflow-y: scroll;
+  margin-top: 20px;
+}
+
+.chat-input {
+  background-color: var(--light);
+}
+
+#comment-name {
+  margin-top: 10px;
+  width: 40%;
+}
+
+#comment-field {
+  margin-top: 10px;
+  width: 90%;
+}
+
+.message {
+  background-color: var(--light);
+  min-height: 40px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px 20px;
+  display: inline-block;
+  width: 90%;
+  margin: 5px 40px;
+}
+
+.message em {
+  color: var(--blue);
+  font-weight: 600;
+}
+
+label {
+  color: var(--blue);
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.send {
+  position: relative;
+  left: 80%;
+}
+
+.alert {
+  display: inline-block;
+  color: var(--danger);
+  font-weight: bold;
+  opacity: 0;
+}
